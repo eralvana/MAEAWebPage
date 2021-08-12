@@ -1,0 +1,164 @@
+{
+	"name": "Miguel Evangelista-Alvarado",
+	"email": {
+		"personal": "miguel.eva.alv@gmail.com",
+		"institutional": "miguel.eva.alv@matem.unam.mx"
+	},
+	"tutor": "Dr. Pablo Suárez-Serrato",
+	"webtutor": "https://sites.google.com/im.unam.mx/pablo/home",
+	"institution":"https://www.matem.unam.mx/",
+	"papers": {
+		"publications": [
+			{
+				"author": "M. Evangelista-Alvarado, P. Suárez-Serrato, J. Torres-Orozco & R. Vera",
+				"title": "On Bott-Morse Foliations and their Poisson Structures in Dimension 3",
+				"url": "http://journalofsingularities.org/volume19/article2.html",
+				"pubisher": "Journal of Singularities",
+				"volume": "19",
+				"pages": "19-33",
+				"year": "2019",
+				"pdf": "http://journalofsingularities.org/volume19/evangelista-suarez-serrato-torres-orozco-vera.pdf"
+			}
+		],
+		"preprints": [
+			{
+				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
+				"title": "On Computational Poisson Geometry II: Numerical Methods",
+				"url": "https://arxiv.org/abs/2010.09785",
+				"pubisher": "",
+				"volume": "",
+				"pages": "",
+				"year": "2020",
+				"pdf": "https://arxiv.org/pdf/2010.09785.pdf"
+			},
+			{
+				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
+				"title": "On Computational Poisson Geometry I: Symbolic Foundations",
+				"url": "https://arxiv.org/abs/1912.01746",
+				"pubisher": "",
+				"volume": "",
+				"pages": "",
+				"year": "2019",
+				"pdf": "https://arxiv.org/pdf/1912.01746.pdf"
+			}
+		]
+	},
+	"software": [
+		{
+			"author": "J. C. Ruíz-Pantaleón y P. Suárez-Serrato",
+			"name": "NumericalPoissonGeometry",
+			"for": "local Poisson-Nijenhuis numeric calculus on Poisson manifolds",
+			"year": "2020",
+			"github": "https://github.com/appliedgeometry/NumericalPoissonGeometry",
+			"pipy": "https://pypi.org/project/numericalpoissongeometry/",
+			"pdf": "https://arxiv.org/pdf/2010.09785.pdf"
+		},
+		{
+			"author": "J. C. Ruíz-Pantaleón y P. Suárez-Serrato",
+			"name": "poissongeometry",
+			"for": "local Poisson-Nijenhuis symbolic calculus on Poisson manifolds",
+			"year": "2019",
+			"github": "https://github.com/appliedgeometry/poissongeometry",
+			"pipy": "https://pypi.org/project/poissongeometry/",
+			"pdf": "https://arxiv.org/pdf/1912.01746.pdf"
+		}
+	],
+	"talks": [
+		{
+			"author": "J. C. Ruíz-Pantaleón and P. Suárez-Serrato",
+			"title": "Computational Poisson Geometry",
+			"event": "Virtual Congress of the Mexican Mathematical Society",
+			"date": "October, 2020",
+			"page": "",
+			"video": {"one": "https://www.youtube.com/watch?v=27nBbz8BbL0&ab_channel=smm_oficial", "two": "https://www.youtube.com/watch?v=PtTaK_Qef54&ab_channel=smm_oficial"}
+		},
+		{
+			"author": "",
+			"title": "Poisson Structures in Bott-Morse Foliations of Dimension 3",
+			"event": "Zoom-Workshop: Geometry and Dynamical Systems",
+			"date": "May, 2020",
+			"page": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/ponentes-y-res%C3%BAmenes",
+			"video": {"one": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"}
+		},
+		{
+			"author": "J. C. Ruíz-Pantaleón",
+			"title": "Geometría de Poisson Computacional",
+			"event": "Zoom-Workshop: Geometry and Dynamical Systems",
+			"date": "May, 2020",
+			"page": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/ponentes-y-res%C3%BAmenes",
+			"video": {"one": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"}
+		},
+		{
+			"author": "",
+			"title": "El uso de Python en la geometría de Poisson",
+			"event": "Seminario de Becarios de la IMUNAM",
+			"date": "March, 2020",
+			"page": "https://paginas.matem.unam.mx/becarios/historial/2020/marzo-2020/342-el-uso-de-python-en-la-geometria-de-poisson",
+			"video": {"one":""}
+		}
+	],
+	"cvu": [
+		{
+			"grade": "PhD in Mathematics Sciences",
+			"institution": "UNAM",
+			"period": "2020 - Currently",
+			"director": "Dr. Pablo Suárez Serrato",
+			"thesis": "",
+			"pdf": ""
+		},
+		{
+			"grade": "Master's Degree in Mathematical Sciences",
+			"institution": "UNAM",
+			"period": "2015 - 2017",
+			"director": "Dr. Pablo Suárez Serrato",
+			"thesis": "Estructuras de Poisson en foliaciones de Bott-Morse de dimensión 3",
+			"pdf": "http://132.248.9.195/ptd2019/noviembre/0798297/Index.html"
+		},
+		{
+			"grade": "Bachelor in Mathematics",
+			"institution": "UAGro",
+			"period": "2009 - 2014",
+			"director": "Dr. Pablo Suárez Serrato",
+			"thesis": "Estructuras Simplécticas en fibraciones de Lesfchetz",
+			"pdf": ""
+		}
+	],
+	"teaching": [
+		{
+			"position": "Mathematics Teacher (Secondary Level)",
+			"institution": "Within the Social Program \"Curso de Preparación para el Examen de Ingreso a la Educación Media Superior 2019\" of the Tlalpan Delegation",
+			"placeanddate": "CDMX in 2019"
+		},
+		{
+			"position": "Mathematics Teacher (Secondary Level)",
+			"institution": "Within the Social Program \"Curso de Preparación para el Examen de Ingreso a la Educación Media Superior 2018\" of the Tlalpan Delegation",
+			"placeanddate": "CDMX in 2018"
+		},
+		{
+			"position": "Mathematics I, II, III and IV Teacher (High School Level)",
+			"institution": "CNCI University - Campus Ajusco",
+			"placeanddate": "CDMX in 2017"
+		},
+		{
+			"position": "Teacher of Math Skills Workshop I and II (High School Level)",
+			"institution": "CNCI University - Campus Ajusco",
+			"placeanddate": "CDMX in 2017"
+		},
+		{
+			"position": "Assistant Professor of Calculus I and II (University Level). Professor: José Guadalupe de la Torre Suárez",
+			"institution": "Academic Unit of Mathematics-UAGro",
+			"placeanddate": "Acapulco, Gro. in 2014"
+		},
+		{
+			"position": "Assistant Professor of Analytical Geometry I and II (University Level). Professor: Vicente Castro Salgado.",
+			"institution": "Academic Unit of Mathematics-UAGro",
+			"placeanddate": "Acapulco, Gro. in 2013"
+		}
+	],
+	"links": {
+		"github": "https://github.com/mevangelista-alvarado",
+		"twitter": "https://twitter.com/maealvarado19",
+		"stackoverflow": "https://stackoverflow.com/users/12021964/miguel-evangelista",
+		"linkedin": "https://www.linkedin.com/in/miguel-evangelista-alvarado-57552bb8/"
+	}
+}
