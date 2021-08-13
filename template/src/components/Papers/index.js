@@ -24,7 +24,7 @@ function Papers() {
               {
                 value.papers.preprints.map(function(e,i){
                   return (
-                    <li key={i}>{e.author}. <a href={e.url} target="_blank" rel="noreferrer"><b>{e.title}</b></a>. {e.publisher}, {e.pages} ({e.year}). <a href={e.pdf} target="_blank" rel="noreferrer">PDF</a></li>
+                    <li key={i}>{e.author}. <a href={e.url} target="_blank" rel="noreferrer"><b>{e.title}</b></a> ({e.year}). <a href={e.pdf} target="_blank" rel="noreferrer">PDF</a></li>
                   )
                 })
               }

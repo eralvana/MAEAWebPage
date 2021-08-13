@@ -13,7 +13,7 @@
 				"author": "M. Evangelista-Alvarado, P. Suárez-Serrato, J. Torres-Orozco & R. Vera",
 				"title": "On Bott-Morse Foliations and their Poisson Structures in Dimension 3",
 				"url": "http://journalofsingularities.org/volume19/article2.html",
-				"pubisher": "Journal of Singularities",
+				"publisher": "Journal of Singularities",
 				"volume": "19",
 				"pages": "19-33",
 				"year": "2019",
@@ -25,7 +25,7 @@
 				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
 				"title": "On Computational Poisson Geometry II: Numerical Methods",
 				"url": "https://arxiv.org/abs/2010.09785",
-				"pubisher": "",
+				"publisher": "",
 				"volume": "",
 				"pages": "",
 				"year": "2020",
@@ -35,7 +35,7 @@
 				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
 				"title": "On Computational Poisson Geometry I: Symbolic Foundations",
 				"url": "https://arxiv.org/abs/1912.01746",
-				"pubisher": "",
+				"publisher": "",
 				"volume": "",
 				"pages": "",
 				"year": "2019",
@@ -70,7 +70,7 @@
 			"event": "Virtual Congress of the Mexican Mathematical Society",
 			"date": "October, 2020",
 			"page": "",
-			"video": {"one": "https://www.youtube.com/watch?v=27nBbz8BbL0&ab_channel=smm_oficial", "two": "https://www.youtube.com/watch?v=PtTaK_Qef54&ab_channel=smm_oficial"}
+			"video": ["https://www.youtube.com/watch?v=27nBbz8BbL0&ab_channel=smm_oficial","https://www.youtube.com/watch?v=PtTaK_Qef54&ab_channel=smm_oficial"]
 		},
 		{
 			"author": "",
@@ -78,7 +78,7 @@
 			"event": "Zoom-Workshop: Geometry and Dynamical Systems",
 			"date": "May, 2020",
 			"page": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/ponentes-y-res%C3%BAmenes",
-			"video": {"one": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"}
+			"video": ["https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"]
 		},
 		{
 			"author": "J. C. Ruíz-Pantaleón",
@@ -86,7 +86,7 @@
 			"event": "Zoom-Workshop: Geometry and Dynamical Systems",
 			"date": "May, 2020",
 			"page": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/ponentes-y-res%C3%BAmenes",
-			"video": {"one": "https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"}
+			"video": ["https://sites.google.com/im.unam.mx/zoomshop-gysd/men%C3%BA/miguel-evangelista"]
 		},
 		{
 			"author": "",
@@ -94,7 +94,7 @@
 			"event": "Seminario de Becarios de la IMUNAM",
 			"date": "March, 2020",
 			"page": "https://paginas.matem.unam.mx/becarios/historial/2020/marzo-2020/342-el-uso-de-python-en-la-geometria-de-poisson",
-			"video": {"one":""}
+			"video": []
 		}
 	],
 	"cvu": [
