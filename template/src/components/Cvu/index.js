@@ -14,7 +14,7 @@ function Cvu() {
             return (
               <li key={i}>{e.grade} - {e.institution}. {e.period}. {e.director}.
               {
-                e.pdf ? <> <a href={e.pdf} target="_blank" rel="noreferrer">PDF</a>.</> : ""
+                e.pdf ? <> <a href={e.pdf} target="_blank" rel="noreferrer"><b>PDF</b></a>.</> : ""
               }
               </li>
             )

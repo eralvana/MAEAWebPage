@@ -25,9 +25,11 @@ function Talk(e,i){
     {
       e.page ? <> <a href={e.page} target="_blank" rel="noreferrer"><b>Page</b></a>.</> : ""
     }
+    <b>
     {
       e.video.map(Video)
     }
+    </b>
     </li>
   )
 }
