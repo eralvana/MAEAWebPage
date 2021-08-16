@@ -10,7 +10,7 @@ import Teaching from "../Teaching"
 
 import "./styles.css"
 
-function Main(props) {
+function Main() {
   const value = useContext(Context);
   return (
     <main>
