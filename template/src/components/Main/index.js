@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route , Switch , Redirect } from "react-router-dom";
 import Presentation from "../Presentation"
 
 import Context from "../../context.js"
@@ -11,6 +11,7 @@ function Main() {
   return (
     <main>
       <Presentation/>
+      <Switch>
       {
         value.states.map(function(element, index){
           return(
@@ -19,8 +20,9 @@ function Main() {
             </ Route>
           )
         })
-
       }
+      <Route path="/" exact><Redirect to="/Cvu"/></Route>
+      </Switch>
     </main>
   );
 }
