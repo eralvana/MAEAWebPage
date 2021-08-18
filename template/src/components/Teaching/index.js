@@ -10,7 +10,7 @@ function Teaching() {
       <h1>Teaching</h1>
       <ul>
         {
-          value.teaching.map(function(e,i){
+          value.info.teaching.map(function(e,i){
             return (
               <li key={i}>{e.position}. {e.institution},  {e.placeanddate}.
               </li>

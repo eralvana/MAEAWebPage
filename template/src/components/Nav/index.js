@@ -8,11 +8,11 @@ function Nav() {
   return (
     <nav>
       <ul>
-        <li>Papers</li>
-        <li>Software</li>
-        <li>Talks</li>
-        <li>CVU</li>
-        <li>Teaching</li>
+        <li onClick={()=>value.setDisplay("Papers")}>Papers</li>
+        <li onClick={()=>value.setDisplay("Software")}>Software</li>
+        <li onClick={()=>value.setDisplay("Talks")}>Talks</li>
+        <li onClick={()=>value.setDisplay("Cvu")}>CVU</li>
+        <li onClick={()=>value.setDisplay("Teaching")}>Teaching</li>
       </ul>
     </nav>  );
 }

@@ -10,7 +10,7 @@ function Cvu() {
       <h1>CVU</h1>
       <ul>
         {
-          value.cvu.map(function(e,i){
+          value.info.cvu.map(function(e,i){
             return (
               <li key={i}>{e.grade} - {e.institution}. {e.period}. {e.director}.
               {

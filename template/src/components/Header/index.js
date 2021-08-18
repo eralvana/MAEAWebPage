@@ -9,7 +9,7 @@ function Header() {
   const value = useContext(Context);
   return (
     <header>
-      <h1>{value.name}</h1>
+      <h1>{value.info.name}</h1>
       <Nav/>
     </header>
   );

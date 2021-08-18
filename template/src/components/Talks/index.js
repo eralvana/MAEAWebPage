@@ -41,7 +41,7 @@ function Talks() {
       <h1>Talks</h1>
       <ul>
         {
-          value.talks.map(Talk)
+          value.info.talks.map(Talk)
         }
       </ul>
     </section>
