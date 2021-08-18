@@ -12,7 +12,7 @@ function Nav() {
           {
             value.states.map(function(element,index){
               return(
-                <li key={index}><Link to={`/${element}`}>{element}</Link></li>
+                <li key={index}><Link to={`/${element.name}`}>{element.name}</Link></li>
               )
             })
           }
