@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Header from "../Header"
 import Main from "../Main"
 import Footer from "../Footer"
@@ -10,11 +10,10 @@ import "./styles.css"
 
 function App() {
   const states = ["Papers","Software", "Talks", "Cvu", "Teaching"];
-  const [display, setDisplay] = useState(states[0]);
   return (
-    <Context.Provider value={{info, states, display, setDisplay}}>
+    <Context.Provider value={{info, states}}>
     <Header/>
-    <Main display={display}/>
+    <Main/>
     <Footer/>
     </Context.Provider>
   );

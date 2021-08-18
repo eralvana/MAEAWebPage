@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Context from "../../context.js"
 import { useContext } from 'react';
 
@@ -11,7 +12,7 @@ function Nav() {
           {
             value.states.map(function(element,index){
               return(
-                <li key={index} onClick={()=>value.setDisplay(element)}>{element}</li>
+                <li key={index}><Link to={`/${element}`}>{element}</Link></li>
               )
             })
           }

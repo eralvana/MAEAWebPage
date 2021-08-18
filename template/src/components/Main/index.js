@@ -1,3 +1,4 @@
+import { Route } from "react-router-dom";
 import Presentation from "../Presentation"
 import Papers from "../Papers"
 import Software from "../Software"
@@ -7,15 +8,25 @@ import Teaching from "../Teaching"
 
 import "./styles.css"
 
-function Main(props) {
+function Main() {
   return (
     <main>
       <Presentation/>
-      {props.display === "Papers" && <Papers/>}
-      {props.display === "Software" && <Software/>}
-      {props.display === "Talks" && <Talks/>}
-      {props.display === "Cvu" && <Cvu/>}
-      {props.display === "Teaching" && <Teaching/>}
+      <Route path="/Papers">
+        <Papers/>
+      </ Route>
+      <Route path="/Software">
+        <Software/>
+      </ Route>
+      <Route path="/Talks">
+        <Talks/>
+      </ Route>
+      <Route path="/Cvu">
+        <Cvu/>
+      </ Route>
+      <Route path="/Teaching">
+        <Teaching/>
+      </ Route>
     </main>
   );
 }
