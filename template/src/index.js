@@ -6,7 +6,7 @@ import App from './components/App/index.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/MAEAWebPage/test">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
