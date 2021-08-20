@@ -2,13 +2,15 @@ import { useContext } from "react";
 import Context from "../../context.js";
 
 import { Link } from "react-router-dom";
+import { Box} from "@material-ui/core";
+
 
 import "./styles.css";
 
 function Nav() {
   const value = useContext(Context);
   return (
-    <nav>
+    <Box component="nav">
       <ul>
           {
             value.states.map(function(element,index){
@@ -18,7 +20,8 @@ function Nav() {
             })
           }
       </ul>
-    </nav>  );
+    </Box>
+  );
 }
 
 export default Nav;

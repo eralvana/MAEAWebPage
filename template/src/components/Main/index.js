@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Context from "../../context.js";
 
 import { Route , Switch , Redirect } from "react-router-dom";
-import { Grid } from "@material-ui/core";
+import { Grid , Box} from "@material-ui/core";
 
 import Presentation from "../Presentation";
 
@@ -11,7 +11,7 @@ import "./styles.css";
 function Main() {
   const value = useContext(Context);
   return (
-    <main>
+    <Box component="main" textAlign="justify">
       <Grid container spacing={3}>
         <Grid item xs={6}>
           <Presentation/>
@@ -31,7 +31,7 @@ function Main() {
           </Switch>
         </Grid>
       </Grid>
-    </main>
+    </Box>
   );
 }
 

@@ -10,14 +10,12 @@ import "./styles.css";
 function Header() {
   const value = useContext(Context);
   return (
-    <header>
+    <Box component="header" textAlign="center">
       <Typography variant="h4">
-        <Box textAlign="center">
           {value.info.name}
-        </Box>
       </Typography>
       <Nav/>
-    </header>
+    </Box>
   );
 }
 

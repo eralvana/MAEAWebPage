@@ -1,16 +1,15 @@
 import { useContext } from "react";
 import Context from "../../context.js";
 
-import { Box } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 
 import "./styles.css";
 
 function Cvu() {
   const value = useContext(Context);
   return (
-    <Box textAlign="justify">
-    <section id="Cvu">
-      <h1>CVU</h1>
+    <Box component="section" id="Cvu" textAlign="justify">
+      <Typography variant="h5">CVU</Typography>
       <ul>
         {
           value.info.cvu.map(function(e,i){
@@ -24,7 +23,6 @@ function Cvu() {
           })
         }
       </ul>
-    </section>
     </Box>
   );
 }

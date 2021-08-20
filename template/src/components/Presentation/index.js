@@ -8,8 +8,7 @@ import "./styles.css";
 function Presentation() {
   const value = useContext(Context);
   return (
-    <Box textAlign="justify">
-    <section id="Presentation">
+    <Box component="section" id="Presentation" textAlign="justify">
       <Box align="center">
       <img src="https://avatars.githubusercontent.com/u/28746720" alt=""/>
       </Box>
@@ -29,7 +28,6 @@ function Presentation() {
           My main line of research is to study applications of Poisson geometry and Sympletic geometry in geometric deep learning through symbolic computation and artificial intelligence (in Python).
         </p>
       </div>
-    </section>
     </Box>
   );
 }

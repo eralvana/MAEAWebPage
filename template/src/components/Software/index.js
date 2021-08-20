@@ -1,16 +1,15 @@
 import { useContext } from "react";
 import Context from "../../context.js";
 
-import { Box } from "@material-ui/core";
+import { Typography , Box } from "@material-ui/core";
 
 import "./styles.css";
 
 function Software() {
   const value = useContext(Context);
   return (
-    <Box textAlign="justify">
-    <section id="Software">
-      <h1>Software</h1>
+    <Box component="section" id="Software" textAlign="justify">
+      <Typography variant="h5">Software</Typography>
       <ul>
         {
           value.info.software.map(function(e,i){
@@ -20,7 +19,6 @@ function Software() {
           })
         }
       </ul>
-    </section>
     </Box>
   );
 }
