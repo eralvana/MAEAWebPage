@@ -1,11 +1,14 @@
-import Context from "../../context.js"
-import { useContext } from 'react';
+import { useContext } from "react";
+import Context from "../../context.js";
 
-import "./styles.css"
+import { Box } from "@material-ui/core";
+
+import "./styles.css";
 
 function Teaching() {
   const value = useContext(Context);
   return (
+    <Box textAlign="justify">
     <section id="Teaching">
       <h1>Teaching</h1>
       <ul>
@@ -20,6 +23,7 @@ function Teaching() {
       }
       </ul>
     </section>
+    </Box>
   );
 }
 

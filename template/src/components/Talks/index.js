@@ -1,7 +1,9 @@
-import Context from "../../context.js"
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
+import Context from "../../context.js";
 
-import "./styles.css"
+import { Box } from "@material-ui/core";
+
+import "./styles.css";
 
 function Video(f,j,a){
   let k = "";
@@ -21,7 +23,7 @@ function Talk(e,i){
     author = "In collaboration with " + e.author + " we presented "
   }
   return (
-    <li key={i}>{author} <b>{e.title}</b> at the <em>{e.event}</em> in {e.date}.
+    <li key={i}>{author} <b>{e.title}</b> at the <em>{e.event}</em> in {e.date}. <br/>
     {
       e.page ? <> <a href={e.page} target="_blank" rel="noreferrer"><b>Page</b></a>.</> : ""
     }
@@ -37,6 +39,7 @@ function Talk(e,i){
 function Talks() {
   const value = useContext(Context);
   return (
+    <Box textAlign="justify">
     <section id="Talks">
       <h1>Talks</h1>
       <ul>
@@ -45,6 +48,7 @@ function Talks() {
         }
       </ul>
     </section>
+    </Box>
   );
 }
 

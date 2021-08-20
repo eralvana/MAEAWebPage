@@ -1,0 +1,18 @@
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul {
+  display: inline-table;
+  padding: 0rem;
+}
+
+nav a {
+  padding: 1rem;
+}

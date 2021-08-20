@@ -1,0 +1,14 @@
+footer li {
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer ul {
+  display: inline-table;
+  padding: 0rem;
+}
+
+footer a {
+  padding: 1rem;
+}

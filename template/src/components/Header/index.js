@@ -1,15 +1,21 @@
-import Context from "../../context.js"
-import { useContext } from 'react';
+import { useContext } from "react";
+import Context from "../../context.js";
 
-import Nav from "../Nav"
+import { Typography , Box } from "@material-ui/core";
 
-import "./styles.css"
+import Nav from "../Nav";
+
+import "./styles.css";
 
 function Header() {
   const value = useContext(Context);
   return (
     <header>
-      <h1>{value.info.name}</h1>
+      <Typography variant="h4">
+        <Box textAlign="center">
+          {value.info.name}
+        </Box>
+      </Typography>
       <Nav/>
     </header>
   );

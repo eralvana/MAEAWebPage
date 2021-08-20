@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
-import Context from "../../context.js"
-import { useContext } from 'react';
+import { useContext } from "react";
+import Context from "../../context.js";
 
-import "./styles.css"
+import { Link } from "react-router-dom";
+
+import "./styles.css";
 
 function Nav() {
   const value = useContext(Context);
