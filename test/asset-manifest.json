@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MAEAWebPage/test/static/css/main.eac5ffd3.chunk.css",
-    "main.js": "/MAEAWebPage/test/static/js/main.65567b18.chunk.js",
-    "main.js.map": "/MAEAWebPage/test/static/js/main.65567b18.chunk.js.map",
+    "main.css": "/MAEAWebPage/test/static/css/main.7a21075d.chunk.css",
+    "main.js": "/MAEAWebPage/test/static/js/main.cf331928.chunk.js",
+    "main.js.map": "/MAEAWebPage/test/static/js/main.cf331928.chunk.js.map",
     "runtime-main.js": "/MAEAWebPage/test/static/js/runtime-main.e0b0e795.js",
     "runtime-main.js.map": "/MAEAWebPage/test/static/js/runtime-main.e0b0e795.js.map",
-    "static/js/2.1e440b4b.chunk.js": "/MAEAWebPage/test/static/js/2.1e440b4b.chunk.js",
-    "static/js/2.1e440b4b.chunk.js.map": "/MAEAWebPage/test/static/js/2.1e440b4b.chunk.js.map",
+    "static/js/2.06dc9bd7.chunk.js": "/MAEAWebPage/test/static/js/2.06dc9bd7.chunk.js",
+    "static/js/2.06dc9bd7.chunk.js.map": "/MAEAWebPage/test/static/js/2.06dc9bd7.chunk.js.map",
     "index.html": "/MAEAWebPage/test/index.html",
-    "static/css/main.eac5ffd3.chunk.css.map": "/MAEAWebPage/test/static/css/main.eac5ffd3.chunk.css.map",
-    "static/js/2.1e440b4b.chunk.js.LICENSE.txt": "/MAEAWebPage/test/static/js/2.1e440b4b.chunk.js.LICENSE.txt"
+    "static/css/main.7a21075d.chunk.css.map": "/MAEAWebPage/test/static/css/main.7a21075d.chunk.css.map",
+    "static/js/2.06dc9bd7.chunk.js.LICENSE.txt": "/MAEAWebPage/test/static/js/2.06dc9bd7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e0b0e795.js",
-    "static/js/2.1e440b4b.chunk.js",
-    "static/css/main.eac5ffd3.chunk.css",
-    "static/js/main.65567b18.chunk.js"
+    "static/js/2.06dc9bd7.chunk.js",
+    "static/css/main.7a21075d.chunk.css",
+    "static/js/main.cf331928.chunk.js"
   ]
 }
