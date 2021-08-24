@@ -11,8 +11,8 @@ function Header() {
   const value = useContext(Context);
   return (
     <Box component="header" textAlign="center">
-      <Typography variant="h4">
-          {value.info.name}
+      <Typography variant="h4" onClick={() => value.setFlag(!value.flag)}>
+        {value.info.name}
       </Typography>
       <Nav/>
     </Box>
