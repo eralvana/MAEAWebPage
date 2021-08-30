@@ -5,14 +5,14 @@ const theme = createTheme({
     primary: {
       light: "#9E9E9E",
       dark: "#212121",
-      main: "#FFC107",
-      contrastText: "#80DEEA",
+      main: "#00500B",
+      contrastText: "#FFC107",
     },
     secondary: {
       light: "#212121",
       dark: "#9E9E9E",
-      main: "#80DEEA",
-      contrastText: "#FFC107",
+      main: "#FFC107",
+      contrastText: "#80DEEA",
     }
   },
 });

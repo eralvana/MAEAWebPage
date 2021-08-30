@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "@material-ui/core";
 
-import { makeStyles } from "@material-ui/core/styles";
-
 import Context from "../../context.js";
 
 import info from "../../info.json";
@@ -16,13 +14,14 @@ import Talks from "../Talks";
 import Cvu from "../Cvu";
 import Teaching from "../Teaching";
 
+import { makeStyles } from "@material-ui/core/styles";
+
 const useStyles = makeStyles(theme => ({
   root: props => ({
     background: props.flag ? theme.palette.primary.light : theme.palette.secondary.light,
     color: props.flag ? theme.palette.primary.dark : theme.palette.secondary.dark,
     minHeight: "100vh",
     padding: theme.spacing(3),
-    aColor: props.flag ? theme.palette.primary.main : theme.palette.secondary.main
   })
 }));
 
