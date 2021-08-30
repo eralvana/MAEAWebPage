@@ -9,7 +9,7 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/MAEAWebPage/test">
+    <BrowserRouter basename="/personal_page/">
       <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>
