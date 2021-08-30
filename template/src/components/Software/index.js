@@ -21,7 +21,9 @@ function Software() {
   const classes = useStyles({flag:value.flag});
   return (
     <Box component="section" id="Software" textAlign="justify">
-      <Typography variant="h5">Software</Typography>
+      <Typography variant="h5">
+        <Box textAlign="center">Software</Box>
+      </Typography>
       <ul>
         {
           value.info.software.map(function(e,i){

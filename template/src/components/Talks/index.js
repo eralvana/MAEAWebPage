@@ -53,7 +53,9 @@ function Talks() {
 
   return (
     <Box component="section" id="Talks" textAlign="justify">
-    <Typography variant="h5">Talks</Typography>
+    <Typography variant="h5">
+      <Box textAlign="center">Talks</Box>
+    </Typography>
       <ul>
         {
           value.info.talks.map(Talk)

@@ -21,7 +21,9 @@ function Cvu() {
   const classes = useStyles({flag:value.flag});
   return (
     <Box component="section" id="Cvu" textAlign="justify">
-      <Typography variant="h5">CVU</Typography>
+      <Typography variant="h5">
+        <Box textAlign="center">CVU</Box>
+      </Typography>
       <ul>
         {
           value.info.cvu.map(function(e,i){

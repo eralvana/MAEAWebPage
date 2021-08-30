@@ -9,7 +9,9 @@ function Teaching() {
   const value = useContext(Context);
   return (
     <Box component="section" id="Teaching" textAlign="justify">
-      <Typography variant="h5">Teaching</Typography>
+      <Typography variant="h5">
+        <Box textAlign="center">Teaching</Box>
+      </Typography>
       <ul>
         {
           value.info.teaching.map(function(e,i){

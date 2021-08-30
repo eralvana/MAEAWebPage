@@ -21,7 +21,9 @@ function Papers() {
   const classes = useStyles({flag:value.flag});
   return (
     <Box component="section" id="Papers" textAlign="justify">
-      <Typography variant="h5">Papers</Typography>
+      <Typography variant="h5">
+        <Box textAlign="center">Papers</Box>
+      </Typography>
       <ul>
         <li>Publications</li>
           <ul>
