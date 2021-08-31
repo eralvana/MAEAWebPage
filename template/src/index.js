@@ -9,7 +9,7 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/MAEAWebPage/test">
+    <HashRouter >
       <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>
