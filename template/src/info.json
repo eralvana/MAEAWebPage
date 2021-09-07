@@ -10,6 +10,36 @@
 	"papers": {
 		"publications": [
 			{
+				"author": "M. Evangelista-Alvarado, J. Ruíz-Pantaleon, and P. Suárez-Serrato",
+				"title": "Examples of Symbolic and Numerical Computation in Poisson Geometry",
+				"url": "https://link.springer.com/chapter/10.1007%2F978-3-030-80209-7_23",
+				"publisher": "Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science",
+				"volume": "12829",
+				"pages": "200-2008",
+				"year": "2021",
+				"pdf": ""
+			},
+			{
+				"author": "M. Evangelista-Alvarado, J. Ruíz-Pantaleon, and P. Suárez-Serrato",
+				"title": "On Computational Poisson Geometry I: Symbolic Foundations",
+				"url": "https://www.aimsciences.org/article/doi/10.3934/jgm.2021018",
+				"publisher": "Journal of Geometric Mechanics",
+				"volume": "",
+				"pages": "",
+				"year": "2021",
+				"pdf": ""
+			},
+			{
+				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
+				"title": "On Computational Poisson Geometry II: Numerical Methods",
+				"url": "https://link.springer.com/chapter/10.1007%2F978-3-030-80209-7_23",
+				"publisher": "Journal of Computational Dynamics",
+				"volume": "",
+				"pages": "",
+				"year": "2021",
+				"pdf": ""
+			},
+			{
 				"author": "M. Evangelista-Alvarado, P. Suárez-Serrato, J. Torres-Orozco & R. Vera",
 				"title": "On Bott-Morse Foliations and their Poisson Structures in Dimension 3",
 				"url": "http://journalofsingularities.org/volume19/article2.html",
@@ -22,24 +52,14 @@
 		],
 		"preprints": [
 			{
-				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
-				"title": "On Computational Poisson Geometry II: Numerical Methods",
-				"url": "https://arxiv.org/abs/2010.09785",
+				"author": "",
+				"title": "",
+				"url": "",
 				"publisher": "",
 				"volume": "",
 				"pages": "",
-				"year": "2020",
-				"pdf": "https://arxiv.org/pdf/2010.09785.pdf"
-			},
-			{
-				"author": "M. Evangelista-Alvarado, J. C. Ruíz-Pantaleón & P. Suárez-Serrato",
-				"title": "On Computational Poisson Geometry I: Symbolic Foundations",
-				"url": "https://arxiv.org/abs/1912.01746",
-				"publisher": "",
-				"volume": "",
-				"pages": "",
-				"year": "2019",
-				"pdf": "https://arxiv.org/pdf/1912.01746.pdf"
+				"year": "",
+				"pdf": ""
 			}
 		]
 	},
